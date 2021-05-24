@@ -1,0 +1,53 @@
+commands:
+  is:
+    aliases:
+      - island
+      - wyspa
+    main:
+      permission: "island.island"
+      description: "Opis dla /is"
+    args:
+      home:
+        permission: "description"
+        description: "Opis dla /is home"
+      visit:
+        permission: "description"
+        description: "Opis dla /is visit"
+      ban:
+        permission: "description"
+        description: "Opis dla /is ban"
+      create:
+        permission: "description"
+        description: "Opis dla /is create"
+      delete:
+        permission: "description"
+        description: "Opis dla /is delete"
+      add:
+        permission: "description"
+        description: "Opis dla /is add"
+      remove:
+        permission: "description"
+        description: "Opis dla /is remove"
+  ah:
+    main:
+      permission: "ah.command.ah"
+      description: "Opis dla /ah"
+    args:
+      sell:
+        permission: "ah.command.ah.sell"
+        description: "Opis dla /ah sell"
+  test:
+    aliases:
+      - testuje
+      - naprawiam
+      - psuje
+    main:
+      permission: "description"
+      description: "permission"
+    args:
+      zepsuj:
+        permission: "description"
+        description: "permission"
+      napraw:
+        permission: "description"
+        description: "permission"

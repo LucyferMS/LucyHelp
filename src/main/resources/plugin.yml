@@ -1,0 +1,13 @@
+name: LucyHelp
+version: ${project.version}
+main: pl.lucyferms.lucyhelp.LucyHelp
+api-version: 1.16
+commands:
+  ahelp:
+    usage: /ahelp
+  hhelp:
+    usage: /hhelp
+    aliases:
+      - pomoc
+      - help
+      - pomocy
